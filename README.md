@@ -5,8 +5,10 @@ How to create your own deep learning based recommender system using PyTorch Ligh
 The difference between implicit and explicit feedback for recommender systems
 How to train-test split a dataset for training recommender systems without introducing biases and data leakages
 Metrics for evaluating recommender systems (hint: accuracy or RMSE is not appropriate!)
-#Datasets
+# Datasets And Architecture
 https://www.kaggle.com/grouplens/movielens-20m-dataset
+Recommender system I have developed is based on the architecture proposed by https://arxiv.org/abs/1708.05031. 
+
 # Building Recommender Systems using Implicit Feedback
 Explicit Feedback
 In the context of recommender systems, explicit feedback are direct and quantitative data collected from users. For example, Amazon allows users to rate purchased items on a scale of 1-10. These ratings are provided directly from users, and the scale allows Amazon to quantify user preference. Another example of explicit feedback includes the thumbs up button on YouTube, which captures users' explicit preference (i.e. like or dislike) of a particular video.
